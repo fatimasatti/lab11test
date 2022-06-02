@@ -8,7 +8,7 @@ public class JUnitTesting {
 		
 		
 		
-		public int countA(String word)
+		public static int countA(String word)
 		{
 		int count = 0;
 		for (int i=0; i <word.length();i++)

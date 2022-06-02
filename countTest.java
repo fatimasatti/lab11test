@@ -6,9 +6,7 @@ class countTest {
 
 	@Test
 	void test() {
-		JUnitTesting obj=new JUnitTesting();
-		int output=obj.countA("ssssAAAaaa");
-		assertEquals(6, output);
+		assertEquals(6, JUnitTesting.countA("sssaaaAAA"));
 	}
 	}
 
